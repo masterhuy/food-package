@@ -1,0 +1,258 @@
+h1, h2, h3, h4, h5, h6{
+    color: $active;
+}
+a {
+	&:hover {
+		color: $active;
+        opacity: 1;
+	}
+}
+.btn{
+    &.btn-active, &:hover{
+        border-color: $active;
+        background-color: $active;
+    }
+}
+.btn-link{
+    &:hover{
+        color: $active;
+    }
+}
+.breadcrumb-wrapper .breadcrumb li a:hover{
+    color: $active;
+}
+
+.popup-newsletter .block_newsletter .content button{
+    background-color: $active;
+    border-color: $active;
+}
+
+.gdz-megamenu .nav > .menu-item .mega-nav li > a:hover{
+    color: $active;
+}
+
+.fs-pager-wrapper a span,
+.fs-pager-wrapper a.active span {
+    background-color: $active;
+    border-color: $active;
+}
+.fs-pager-wrapper a.active span::before{
+    border-color: $active;
+}
+.gdz-slider-wrapper{
+	.nav-control{
+		> a{
+			background-color: $active;
+		}
+	}
+}
+.owl-carousel .owl-nav button{
+    &.owl-prev:hover, &.owl-next:hover{
+        background-color: $active;
+    }
+}
+.owl-dots button span,
+.owl-dots button.active span {
+    background-color: $active;
+    border-color: $active;
+}
+.owl-dots button.active span::before{
+    border-color: $active;
+}
+.header-3{
+    .header-bottom{
+        background-color: $active;
+    }
+}
+.header-5 #header-top .header-right .btn-group > a{
+    &:hover path{
+        fill: $active;
+    }
+}
+#off-canvas-menu > .btn-group li.current a {
+    color: $active;
+}
+
+#hor-menu .nav > li > a span{
+    &::after{
+        background-color: $active;
+    }
+}
+.gdz-megamenu .nav > .menu-item .mega-nav li.group > a{
+    color: $active;
+}
+
+.price.new{
+    color: $active;
+}
+.price.total{
+    color: $active;
+}
+.cart-prices-line .value{
+    color: $active;
+}
+#cart_block .remove-from-cart:hover path{
+    fill: $active;
+}
+#blockcart-modal .value{
+    color: $active;
+}
+#blockcart-modal .btn-default{
+    border-color: $active;
+    color: $active;
+}
+.productbox-2 .product-buttons .ajax-add-to-cart{
+    color: $active;
+    border-color: $active;
+}
+.productbox-3 .product-buttons .btn-icon path{
+    fill: $active;
+}
+.productbox-4 .block-addtocart .product-buttons .cart-button{
+    background-color: $active;
+}
+.productbox-4 .block-addtocart .product-buttons .btn-icon.quick-view{
+    &:hover{
+        background-color: $active;
+    }
+    path{
+        fill: $active;
+    }
+}
+.product-miniature::before{
+    border-color: $active;;
+}
+.addon-tab .nav-tabs .nav-link{
+    &.active, &:hover{
+        color: $active;
+    }
+}
+.pb-testimonial .quote svg {
+    fill: $active;
+}
+.pb-testimonial .pb-testimonial-comment svg path{
+    fill: $active;
+}
+.pb-testimonial.with-thumbnails .pb-testimonial-carousel .owl-nav button:hover path{
+    fill: $active;
+}
+
+/* Product list */
+#search_filters .ui-slider .ui-slider-handle{
+    border-color: $active;
+}
+#search_filters .filter-block .icon-close:hover svg path{
+    fill: $active;
+}
+#search_filters .facet.Weight .facet-label > a:hover{
+    border-color: $active;
+}
+#search_filters .facet.Weight .facet-label.active > a{
+    border-color: $active;
+    color: $active;
+}
+.products-sort-order .dropdown-menu a:hover, .products-sort-order .dropdown-menu a.current{
+    color: $active;
+}
+.switch-view.active rect{
+    fill: $active;
+}
+.products-list .product-miniature .product-info .product-buttons .btn-icon{
+    &:hover{
+        path{
+            fill: $active;
+            fill-opacity: 1;
+        }
+        span{
+            color: $active;
+        }
+
+    }
+}
+.pagination li{
+    a:hover{
+        color: $active;
+        path{
+            fill: $active;
+            fill-opacity: 1;
+        }
+    }
+    &.current a{
+        color: $active;
+    }
+}
+
+/* details */
+.available-quantity{
+    color: $active;
+}
+.bootstrap-touchspin .input-group-btn-vertical .btn-touchspin:hover i::before{
+    color: $active;
+}
+.product-actions .addToWishlist:hover {
+	color: $active;
+}
+.product-actions .addToWishlist:hover svg path{
+    fill: $active;
+}
+.product-images .thumb-container > .thumb.selected,
+.product-images .thumb-container > .thumb:hover{
+    border-color: $active;
+}
+.images-container .slick-arrow:hover{
+    background-color: $active;
+}
+#more_info_block li a.active, #more_info_block li a:hover{
+    color: $active;
+}
+.product-variants-item ul li:hover .radio-label, .product-variants-item input:checked ~.radio-label {
+    color: $active;
+    border-color: $active;
+}
+
+/*account*/
+.show-pass button{
+    &:hover{
+        color: $active;
+    }
+}
+
+/* Blog */
+.blog-post .post-fulltext ul li::before{
+    background-color: $active;
+}
+.blog-post .post-fulltext .border-left::before{
+    background-color: $active;
+}
+.widget-categories li a:hover{
+    color: $active;
+}
+.blog-widget li a:hover{
+    color: $active;
+}
+.widget-newsletter .block_newsletter .content button{
+    path{
+        fill: $active;
+    }
+}
+
+/* Cart */
+.remove-from-cart:hover{
+    color: $active;
+}
+.product-line-info .price{
+	color: $active;
+}
+
+/* footer */
+.footer #footer-main .block-content li a:hover{
+    color: $active;
+}
+.footer-4{
+    .hotline{
+        color: $active;
+    }
+}
+.footer-5 #footer-main .block-content li a:hover{
+    color: $active;
+}
